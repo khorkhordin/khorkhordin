@@ -18,7 +18,6 @@ def calculate_angle(dx, dy):
             return 90
         else:
             return -90
-
 def shift(dx, dy):
     global x, y
     x += dx
