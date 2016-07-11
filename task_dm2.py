@@ -24,7 +24,6 @@ def paint_graph(f, a, b, N = 100,
         goto(*scale(x, f(x)))
     penup()
 
-
 def sqr(x):
     return x*x
 
