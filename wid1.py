@@ -22,7 +22,7 @@ def init_main_window():
     button2.bind("<Button>", print_hello)
 
     variable = tkinter.IntVar(0)
-    label = tkinter.Label(root,text=variable)
+    label = tkinter.Label(root,textvariable=variable)
     scale = tkinter.Scale(root, orient=tkinter.HORIZONTAL, length=300,
             from_=0, to = 100,tickinterval=10, resolution=5,variable=variable)
 
