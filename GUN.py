@@ -102,7 +102,7 @@ def timer_event():
 
     canvas.after(timer_delay, timer_event)
 
-def click_event_handler():
+def click_event_handler(event):
     global shells_on_fly
     shell = gun.shoot()
     shells_on_fly.append(shell)
